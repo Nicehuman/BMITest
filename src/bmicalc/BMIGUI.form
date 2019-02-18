@@ -150,9 +150,6 @@
     <Component class="javax.swing.JLabel" name="heightInches">
       <BindingProperties>
         <BindingProperty name="text" source="sliderHeight" sourcePath="${value}" target="heightInches" targetPath="text" updateStrategy="1" immediately="false">
-          <Property name="converter" type="org.jdesktop.beansbinding.Converter" editor="org.netbeans.modules.form.ComponentChooserEditor">
-            <ComponentRef name="default"/>
-          </Property>
           <Property name="name" type="java.lang.String" value="HeightConvo"/>
         </BindingProperty>
       </BindingProperties>
@@ -160,9 +157,6 @@
     <Component class="javax.swing.JLabel" name="weightLbs">
       <BindingProperties>
         <BindingProperty name="text" source="sliderWeight" sourcePath="${value}" target="weightLbs" targetPath="text" updateStrategy="1" immediately="false">
-          <Property name="converter" type="org.jdesktop.beansbinding.Converter" editor="org.netbeans.modules.form.ComponentChooserEditor">
-            <ComponentRef name="default"/>
-          </Property>
           <Property name="name" type="java.lang.String" value="WeightConvo"/>
         </BindingProperty>
       </BindingProperties>
